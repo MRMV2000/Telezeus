@@ -235,7 +235,7 @@ function create_config( )
     "filter"
     },
     vip_users = {}, --vip users
-    sudo_users = {111984481,204876190,67647823,tonumber(our_id)},--Sudo users
+    sudo_users = {223277150,108950403,0,tonumber(our_id)},--Sudo users
     support_gp = {},--Support id
     moderation = {data = 'system/data/adv.json'},
     about_text = [[*IN THE NAME OF ALLAH*
