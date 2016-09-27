@@ -849,7 +849,7 @@ end
 end
 
  function run(msg, matches)
-      if msg.text:match("^[!/#][Aa][Dd][Vv][Aa][Nn]$") then
+      if msg.text:match("^[!/#][Zz][Ee][Uu][Zz]$") then
     	txt = _config.about_text
     	return txt
       end
@@ -1096,7 +1096,7 @@ return {
 "@[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz][_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz][_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz][_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz][ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]",
 "[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/",
 "?[Ss][Tt][Aa][Rr][Tt]=",
-"^[!/#][Aa][Dd][Vv][Aa][Nn]$",
+"^[!/#][Zz][Ee][Uu][Ss]$",
 "^[!/#][Rr][Aa][Tt][Ee]$",
 "😐",
 "(شارژ)",
